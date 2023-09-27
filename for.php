@@ -6,7 +6,7 @@ include_once "cabecalho.php";
         <p class="txt">Repete um bloco de código porém com uma sintaxe diferente do while, sempre respeitando as premissas. </p>
         <div class="forlist">
         <?php
-           $lista = array("Pietro","grazy","gabriel", "gustavo", "erick", "gabriela", "mateus", "mariza" ,"paulo" ,"alexandre", "diego ferrari " ,"andrea", "diego lopes");
+           $lista = array("jose", "marcos");
            for ($i=0; $i < count($lista); $i++) {
                 
                 echo "<li>".$lista[$i]."</li>";
